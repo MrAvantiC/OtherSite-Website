@@ -12,6 +12,18 @@ export const metadata: Metadata = {
     default: 'OtherSite - We love Web Development',
   },
   description: 'Maßgeschneiderte Lösungen für Online-Shops',
+  icons: {
+    icon: '/favicons/favicon.ico',
+    shortcut: '/favicons/favicon-32x32.png',
+    apple: '/favicons/apple-touch-icon.png',
+    other: [
+      {
+        rel: 'manifest',
+        url: '/favicons/manifest.json',
+      },
+    ],
+  },
+  themeColor: '#ffffff',
 }
 
 export default function Layout({ children }: { children: React.ReactNode }) {

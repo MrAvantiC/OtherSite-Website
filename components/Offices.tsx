@@ -28,9 +28,7 @@ export function Offices({
     <ul role="list" {...props}>
       <li>
         <Office name="Magdeburg" invert={invert}>
-          Hans-Löscher-Straße 21
-          <br />
-          39108, Magdeburg, Deutschland
+          Breiter Weg 232A
         </Office>
       </li>
     </ul>
