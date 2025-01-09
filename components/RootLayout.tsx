@@ -56,7 +56,7 @@ function Header({
           <Logo />
         </Link>
         <div className="flex items-center gap-x-8">
-          <Button href="/contact" invert={invert}>
+          <Button href="mailto:hello@othersite.io" invert={invert}>
             Kontakt
           </Button>
         </div>
