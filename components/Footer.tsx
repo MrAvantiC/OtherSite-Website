@@ -107,7 +107,7 @@ import { Logo } from '@/components/Logo'
 //
 export function Footer() {
   return (
-    <Container as="footer" className="mt-24 w-full sm:mt-32 lg:mt-40">
+    <Container as="footer" className="w-full">
       {/*<FadeIn>*/}
       {/*<div className="grid grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-2">*/}
       {/*  <Navigation />*/}
@@ -115,11 +115,25 @@ export function Footer() {
       {/*    <NewsletterForm />*/}
       {/*  </div>*/}
       {/*</div>*/}
-      <div className="mb-20 mt-24 flex flex-wrap items-end justify-between items-center gap-x-6 gap-y-4 border-t border-neutral-950/10 pt-12">
+      <div className="mb-20 mt-12 flex flex-col sm:flex-row items-end justify-between items-center gap-x-6 gap-y-4 border-t border-neutral-950/10 pt-12">
         <Link href="/" aria-label="Home">
           <Logo />
         </Link>
-        <p className="text-sm text-neutral-700">© OtherSite GmbH {new Date().getFullYear()}</p>
+        <div className="text-sm text-neutral-700 mt-4 sm:mt-0">
+          <div>
+            <Link href="/impressum" className="transition hover:text-neutral-950">
+              Impressum
+            </Link>
+
+            <span className="inline-flex mx-1">|</span>
+
+            <Link href="/datenschutz" className="transition hover:text-neutral-950">
+              Datenschutz
+            </Link>
+          </div>
+
+          <span>© OtherSite GmbH {new Date().getFullYear()}</span>
+        </div>
       </div>
       {/*</FadeIn>*/}
     </Container>
