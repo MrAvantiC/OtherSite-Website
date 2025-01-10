@@ -45,9 +45,9 @@ export default function DataPrivacy() {
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-2">Vertretungsberechtigte Personen</h2>
         <p>
-          René Mäkeler, Geschäftsführer
-          <br />
           Isabel-Sophie Bales, Geschäftsführerin
+          <br />
+          René Mäkeler, Geschäftsführer
         </p>
       </section>
 
