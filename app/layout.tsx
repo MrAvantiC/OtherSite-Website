@@ -23,7 +23,9 @@ export const metadata: Metadata = {
       },
     ],
   },
-  themeColor: '#ffffff',
+  verification: {
+    google: 'iuuQ2xtasgZh79lsVeXYBv12poZhPiKdA1nq0CWPAqw',
+  },
 }
 
 export default function Layout({ children }: { children: React.ReactNode }) {
