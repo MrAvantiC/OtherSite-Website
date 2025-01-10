@@ -31,7 +31,7 @@ export function ServicesSection() {
           </div>
           <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
             <ListItem title="Shop-Entwicklung">
-              Aufbau und Optimierung von Online-Shops mit Shopify, OXID oder Shopware..
+              Aufbau und Optimierung von Online-Shops mit Shopify, OXID oder Shopware.
             </ListItem>
             <ListItem title="System-Integration">
               Nahtlose Verknüpfung Ihrer IT-Systeme wie ERP, PIM und CRM für reibungslose Prozesse

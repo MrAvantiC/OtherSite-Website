@@ -10,7 +10,7 @@ export function ContactSection() {
         <div className="mx-auto max-w-4xl">
           <div className="max-w-xxl text-center">
             <h2 className="font-display text-3xl font-medium text-white [text-wrap:balance] sm:text-4xl">
-              Lassen Sie uns über ihr Projekt sprechen
+              Lassen Sie uns über Ihr Projekt sprechen
             </h2>
             <div className="mt-6 flex justify-center">
               <Button href="mailto:hello@othersite.io" invert>
