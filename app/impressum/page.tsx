@@ -25,7 +25,7 @@ export default function DataPrivacy() {
           Land: Deutschland
           <br />
           E-Mail:{' '}
-          <a href="mailto:pm@othersite.io" className="text-blue-500">
+          <a href="mailto:hello@othersite.io" className="text-blue-500">
             hello@othersite.io
           </a>
           <br />
